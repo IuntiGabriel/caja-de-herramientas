@@ -1,4 +1,4 @@
-# 📝 Chuleta Linux Express – Primer Día SysAdmin 🚀
+# 📝 Linux – SysAdmin 🚀
 
 ## 🔎 Diagnóstico rápido del sistema
 ```bash
