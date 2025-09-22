@@ -42,7 +42,7 @@ UUID=<uuid>   /mnt/data   ext4   defaults   0 0
 ## 📦 Opción 2: Montar disco **con LVM**
 1. **Identificar disco**
 ```bash
-lsblk
+lsblk -f
 fdisk -l
 ```
 
