@@ -3,7 +3,7 @@
 ## 📦 Opción 1: Montar disco **sin LVM**
 1. **Identificar disco nuevo**
 ```bash
-lsblk
+lsblk -f
 fdisk -l
 ```
 
