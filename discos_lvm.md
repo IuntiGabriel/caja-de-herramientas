@@ -104,6 +104,12 @@ df -h                 # ver discos montados
 pvs                   # listar Physical Volumes
 vgs                   # listar Volume Groups
 lvs                   # listar Logical Volumes
+
+#Reescanear controladoras para detectar nuevos discos
+for host in /sys/class/scsi_host/host*; do
+  echo "- - -" > "$host/scan"
+done
+
 ```
 
 👉 Sin LVM: más simple pero rígido.  
